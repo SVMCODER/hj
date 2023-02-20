@@ -34,9 +34,6 @@ function login() {
         localStorage.setItem('badge','User')
         window.location.replace('home.html')
     }
-    else {
-        alert('error')
-    }
 }
 function project() {
     window.location.replace('projects.html')
